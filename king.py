@@ -14,6 +14,12 @@ rounds_changer= input ("hur många rundor vill ni sköra")
 
 win_need= math.ceil(int(rounds_changer)/2) 
 
+t=input("hur många sidor vi du köra med") 
+
+
+
+
+dice= 1,math.ceil(int(t))
 
 game = "Y"
 
@@ -26,8 +32,8 @@ rounds=0
 
 while game.upper() == "Y":
     rounds +=1 
-    player_one_roll = randint(1,6)
-    player_two_roll = randint(1,6)
+    player_one_roll = randint(dice)
+    player_two_roll = randint(dice)
 
 
     if-player_one_roll> player_two_roll:
