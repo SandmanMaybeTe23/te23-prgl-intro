@@ -32,8 +32,8 @@ rounds=0
 
 while game.upper() == "Y":
     rounds +=1 
-    player_one_roll = randint(dice)
-    player_two_roll = randint(dice)
+    player_one_roll = randint(1,dice)
+    player_two_roll = randint(1,dice)
 
 
     if-player_one_roll> player_two_roll:
